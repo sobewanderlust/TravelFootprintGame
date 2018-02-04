@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+    <item name="weight1" format="integer" type="dimen">1</item>
+    <dimen name="width0">0dp</dimen>
+    <dimen name="width1">1dp</dimen>
+    <dimen name="TeamNamePadding">16dp</dimen>
+    <dimen name="ScoreResultPadding">24dp</dimen>
+    <dimen name="textview_padding">4dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="view_margin">120dp</dimen>
+    <dimen name="font_size_teams">14sp</dimen>
+    <dimen name="font_size_scores">56sp</dimen>
+</resources>

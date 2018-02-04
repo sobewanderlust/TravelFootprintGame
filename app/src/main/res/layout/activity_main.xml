@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/match_parent"
+    android:layout_height="@dimen/match_parent"
+    android:background="@drawable/background_pixabay"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/width1"
+                android:layout_height="@dimen/wrap_content"
+                android:layout_weight="@dimen/weight1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/StyleTravelerNames"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:padding="@dimen/TeamNamePadding"
+                    android:text="@string/travelerAname" />
+
+                <TextView
+                    android:id="@+id/traveler_a_score"
+                    style="@style/StyleScores"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/ScoreResultPadding"
+                    android:text="@string/initialscore" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/bike"
+                    android:onClick="add20PointsTravelerA"
+                    android:text="@string/bike20points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/bus"
+                    android:onClick="add15PointsTravelerA"
+                    android:text="@string/bus15points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/electric_car"
+                    android:onClick="add10PointsTravelerA"
+                    android:text="@string/ecar10points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/car"
+                    android:onClick="add5PointsTravelerA"
+                    android:text="@string/car5points" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/width1"
+                android:layout_height="@dimen/wrap_content"
+                android:layout_marginBottom="@dimen/view_margin"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="@dimen/width0"
+                android:layout_height="@dimen/match_parent"
+                android:layout_weight="@dimen/weight1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/StyleTravelerNames"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:padding="@dimen/TeamNamePadding"
+                    android:text="@string/travelerBname" />
+
+                <TextView
+                    android:id="@+id/traveler_b_score"
+                    style="@style/StyleScores"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/ScoreResultPadding"
+                    android:text="@string/initialscore" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/bike"
+                    android:onClick="add20PointsTravelerB"
+                    android:text="@string/bike20points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/bus"
+                    android:onClick="add15PointsTravelerB"
+                    android:text="@string/bus15points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/electric_car"
+                    android:onClick="add10PointsTravelerB"
+                    android:text="@string/ecar10points" />
+
+                <Button
+                    style="@style/StyleButtons"
+                    android:layout_width="@dimen/match_parent"
+                    android:layout_height="@dimen/wrap_content"
+                    android:drawableLeft="@drawable/car"
+                    android:onClick="add5PointsTravelerB"
+                    android:text="@string/car5points" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="@dimen/wrap_content"
+            android:layout_height="@dimen/wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/button_margin"
+            android:onClick="resetScores"
+            android:text="@string/resetbutton" />
+
+    </LinearLayout>
+
+</ScrollView>

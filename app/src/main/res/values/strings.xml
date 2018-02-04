@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Travel Footprint Game</string>
+    <string name="initialscore">0</string>
+    <string name="bike20points">+20 points</string>
+    <string name="bus15points">+15 points</string>
+    <string name="ecar10points">+10 points</string>
+    <string name="car5points">+5 points</string>
+    <string name="travelerAname">Traveler A</string>
+    <string name="travelerBname">Traveler B</string>
+    <string name="resetbutton">reset game</string>
+</resources>
