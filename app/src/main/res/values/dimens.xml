@@ -13,4 +13,5 @@
     <dimen name="view_margin">120dp</dimen>
     <dimen name="font_size_teams">14sp</dimen>
     <dimen name="font_size_scores">56sp</dimen>
+    <dimen name="transparency85level">0.85</dimen>
 </resources>

@@ -148,6 +148,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/button_margin"
             android:onClick="resetScores"
+            android:alpha="@dimen/transparency85level"
             android:text="@string/resetbutton" />
 
     </LinearLayout>

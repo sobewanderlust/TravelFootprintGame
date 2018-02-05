@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.lang.ref.Reference;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,10 +16,14 @@ public class MainActivity extends AppCompatActivity {
     int scoreTravelerA = 0;
     int scoreTravelerB = 0;
 
+    TextView scoreView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        scoreView = (TextView)findViewById(R.id.traveler_a_score);
+        scoreView = (TextView)findViewById(R.id.traveler_b_score);
     }
 
     /**
@@ -95,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
         scoreTravelerB = 0 ;
         displayForTravelerB(scoreTravelerB);
     }
+
     /**
      * Displays the given score for Traveler A.
      */
