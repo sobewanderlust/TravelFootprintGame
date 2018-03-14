@@ -1,5 +1,8 @@
 <resources>
+    <!-- App name -->
     <string name="app_name">Travel Footprint Game</string>
+
+    <!-- Texts used in-app -->
     <string name="initialscore">0</string>
     <string name="bike20points">+20 points</string>
     <string name="bus15points">+15 points</string>
@@ -8,4 +11,5 @@
     <string name="travelerAname">Traveler A</string>
     <string name="travelerBname">Traveler B</string>
     <string name="resetbutton">reset game</string>
+
 </resources>
